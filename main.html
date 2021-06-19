@@ -1,0 +1,90 @@
+<!doctype html>
+<html dir="ltr" lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>Kindergarten</title>
+    </head>
+    <body>
+        <h1 ><img src="../web programming/logo.PNG" alt="Kindergarten"></h1>
+        <div class="login-form">
+            <form>
+              <div align="center" style="width:100%"><input type="text" name="email" class="text-field" placeholder="아이디"></div>
+              <div align="center" style="width:100%"><input type="password" name="password" class="text-field" placeholder="비밀번호"></div>
+              <div align="center" style="width:100%"><input type="submit" value="로그인" class="submit-btn"></div>
+            </form>
+        </div>
+        <div class="inp_chk">
+            <label for="keepLogin" class="lab_g">
+                <input type="checkbox" id="keepLogin" class="inp_radio"  name="keepLogin">
+                <span class="img_top ico_check"></span>
+                <span class="txt_lab">로그인 상태 유지</span>
+            </label>
+        </div>
+        <span class="txt_find">
+            🔒<a href=# class="link_find">회원탈퇴</a>
+        </span>
+        <sapn class="txt_join"></sapn>
+            <a href="join.html" class="link_join">👤회원가입</a>
+        </sapn>
+        <footer>
+            <a href="inform.html"><img src="../web programming/어린이집logo.PNG" width="250" height="40"/></a>
+        </footer>
+    </body>
+    <style>
+    html {
+        height: 100%;
+        width: 100%;
+    }
+    h1{
+        color: white;
+        font-size: 80px;
+        text-align: center;
+    }
+    body {
+        overflow-x: hidden;
+        background: #c6e69c;
+    }
+    .inp_chk {
+        position:relative;
+        left: 615px;
+        top: -15px;
+        font-size: 12px;
+    }
+    .link_join{
+        text-decoration: none;
+        position:relative;
+        left: 765px;
+        top: -205px;
+        font-size: 13px;
+    }
+    .txt_find{
+        position:relative;
+        left: 840px;
+        top: -36px;
+        font-size: 12px;
+    }
+    .text-field {
+        font-size: 15px;
+        padding: 10px;
+        border: none;
+        width: 260px;
+        margin-bottom: 10px;
+    }
+    .submit-btn{
+        font-size: 14px;
+        border: none;
+        padding: 10px;
+        width: 280px;
+        background-color: #f0bd30;
+        margin-bottom: 30px;
+        color: white;
+    }
+    footer {
+        position: absolute;
+        bottom: 40px;
+        left: 650px;
+        width: 100%; 
+    }
+    </style>
+  
+</html>
